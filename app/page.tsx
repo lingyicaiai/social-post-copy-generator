@@ -2,6 +2,12 @@
 
 import { useState } from 'react';
 
+declare global {
+  interface Window {
+    gtag?: (...args: any[]) => void;
+  }
+}
+
 export default function Home() {
   const [description, setDescription] = useState('');
   const [platforms, setPlatforms] = useState<string[]>(['x', 'devto', 'hashnode']);
