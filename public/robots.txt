@@ -1,0 +1,4 @@
+User-agent: *
+Allow: /
+
+Sitemap: https://social-post-copy-generator.lingyicai.xyz/sitemap.xml
